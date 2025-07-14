@@ -52,16 +52,17 @@ Open your browser at: http://localhost:4200
 📸 Screenshots
 
 ### 🎬 Landing Page
-![Landing](src/assets/screenshots/LandingPage.png)
+![Landing](https://raw.githubusercontent.com/humanity2003/rotten-potato/main/src/assets/screenshots/LandingPage.png)
 
 ### 🏠 Home Page
-![Home](src/assets/screenshots/Home.png)
+![Home](https://raw.githubusercontent.com/humanity2003/rotten-potato/main/src/assets/screenshots/Home.png)
 
 ### 🔐 Login Page
-![Login](src/assets/screenshots/LogInPage.png)
+![Login](https://raw.githubusercontent.com/humanity2003/rotten-potato/main/src/assets/screenshots/LogInPage.png)
 
 ### 🎞️ Movie Page
-![Movie](src/assets/screenshots/Movie.png)
+![Movie](https://raw.githubusercontent.com/humanity2003/rotten-potato/main/src/assets/screenshots/Movie.png)
+
 
 🔮 Future Enhancements
 🔗 Connect to OMDb or TMDb API
