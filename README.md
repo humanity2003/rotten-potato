@@ -52,10 +52,10 @@ Open your browser at: http://localhost:4200
 📸 Screenshots
 
 ### 🎬 Landing Page
-![Landing]("src/assets/screenshots/LandingPage.png")
+![Landing](src/assets/screenshots/LandingPage.png)
 
 ### 🏠 Home Page
-![Home]("src/assets/screenshots/Home.png")
+![Home](src/assets/screenshots/Home.png)
 
 ### 🔐 Login Page
 ![Login](src/assets/screenshots/LogInPage.png)
