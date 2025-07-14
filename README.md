@@ -50,12 +50,18 @@ ng serve
 Open your browser at: http://localhost:4200
 
 📸 Screenshots
-<img width="1898" height="1027" alt="image" src="https://github.com/user-attachments/assets/6857d340-58c9-4228-a93d-7868f3e1a671" />
 
-<img width="1902" height="1027" alt="image" src="https://github.com/user-attachments/assets/7139df9a-eb84-4b91-b583-cb7fdac71551" />
+### 🎬 Landing Page
+![Landing]("src/assets/screenshots/LandingPage.png")
 
-<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/47a3fe45-0b2d-4a64-8ddb-8a59cfaecce3" />
-<img width="1911" height="1028" alt="image" src="https://github.com/user-attachments/assets/9f763338-3e7b-45a8-a349-e96ac2196ce8" />
+### 🏠 Home Page
+![Home]("src/assets/screenshots/Home.png")
+
+### 🔐 Login Page
+![Login](src/assets/screenshots/LogInPage.png)
+
+### 🎞️ Movie Page
+![Movie](src/assets/screenshots/Movie.png)
 
 🔮 Future Enhancements
 🔗 Connect to OMDb or TMDb API
