@@ -1,59 +1,84 @@
-# RottenPotatoMovieReview
+# 🍿 Rotten Potato
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+**Rotten Potato** is a movie recommendation web app built using Angular. It displays curated movie listings categorized as **Trending**, **Popular**, and **In Theatre** — all fetched from static JSON files.
 
-## Development server
+> 💡 Future versions will integrate with real-time APIs like OMDb or TMDb for dynamic movie data.
 
-To start a local development server, run:
+---
 
-```bash
+## 🎬 Features
+
+- 💡 Categorized movie sections (Trending, Popular, In Theatre)
+- ⭐ Star rating display using reusable component
+- 📱 Responsive UI design (mobile-first)
+- 🔐 Static login screen (for future enhancement)
+- 🔄 Angular routing for movie details
+
+---
+
+## 🧰 Tech Stack
+
+- **Angular 16+**
+- **HTML/CSS**
+- **Static JSON (Assets folder)**
+- Designed for easy transition to **REST API (OMDb)**
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+/src
+  /app
+    /components
+      /header
+      /home
+      /login
+      /movie
+      /landingpage
+    /features
+      /star-rating
+  /assets
+    trending-movies.json
+    theatre-movies.json
+    popular-movies.json
+
+🚀 Running the App Locally
+npm install
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open your browser at: http://localhost:4200
 
-## Code scaffolding
+📸 Screenshots
+<img width="1898" height="1027" alt="image" src="https://github.com/user-attachments/assets/6857d340-58c9-4228-a93d-7868f3e1a671" />
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<img width="1902" height="1027" alt="image" src="https://github.com/user-attachments/assets/7139df9a-eb84-4b91-b583-cb7fdac71551" />
 
-```bash
-ng generate component component-name
-```
+<img width="1904" height="1034" alt="image" src="https://github.com/user-attachments/assets/47a3fe45-0b2d-4a64-8ddb-8a59cfaecce3" />
+<img width="1911" height="1028" alt="image" src="https://github.com/user-attachments/assets/9f763338-3e7b-45a8-a349-e96ac2196ce8" />
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+🔮 Future Enhancements
+🔗 Connect to OMDb or TMDb API
 
-```bash
-ng generate --help
-```
+👤 Real login + user registration
 
-## Building
+💬 User reviews and watchlists
 
-To build the project run:
+🔎 Search and filter movies
 
-```bash
-ng build
-```
+👨‍💻 Author
+Sourav Halder
+[GitHub Profile](https://github.com/humanity2003)
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🙏 Acknowledgments
 
-## Running unit tests
+This project was inspired and guided by [WebTechTalk on YouTube](https://www.youtube.com/@WebTechTalk).  
+A big thanks to the creator for their clear explanations and hands-on Angular tutorials.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+📝 License
+This project is licensed under the MIT License.
 
-```bash
-ng test
-```
+__________________________________________________________________________________________________________________________________________
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
